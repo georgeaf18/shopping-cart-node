@@ -7,7 +7,7 @@ const cart_items = require('./routes/cart-items');
 
 app.use(express.json());
 app.use(cors());
-app.use('/', cart_items);
+app.use('/cart_items', cart_items);
 
 
 
